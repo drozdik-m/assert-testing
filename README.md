@@ -1,11 +1,11 @@
-
+ï»¿
 ![Testing class - banner](images/heading-image.png?raw=true "Testing - easy and light assert")
 
 # Testing
 
-“Testing” is a **simple class for testing your JavaScript code**. This module is easy to use, light, small and has zero dependencies. 
+"Testing" is a **simple class for testing your JavaScript code**. This module is easy to use, light, small and has zero dependencies. 
 
-Testing module is written in TypeScript and compiled into commonJS, so it’s highly compatible and works with almost any browser or framework. 
+Testing module is written in TypeScript and compiled into commonJS, so itâ€™s highly compatible and works with almost any browser or framework. 
 
 **This is not any high-tech code. It is not dependent on 6156851357 modules and does not offer unseen JavaScript magic. Download this, save a few minutes and use it to make some coffee. We #keepItSimple.**
 
@@ -22,7 +22,7 @@ Testing.Assert(1 + 2 == 3); //The result is true -> success (no action)
 Testing.Assert(1 + 2 == 4); //The result is false -> error (exception or console warning)
 ```
 
-It tests, if you can add two numbers. Neat, right? But that is kind of not the thing we need. Let’s say that you created function that can tell you, if a string is a correct email address:
+It tests, if you can add two numbers. Neat, right? But that is kind of not the thing we need. Letâ€™s say that you created function that can tell you, if a string is a correct email address:
 
 ```javascript
 Testing.Assert(IsEmail("info@domain.cz"));
@@ -35,7 +35,7 @@ Testing.Assert(!IsEmail("@."));
 Testing.Assert(!IsEmail("lorem-ipsum"));
 ```
 
-We wrote all possible inputs and told the program what web expect as a return value. If your function “IsEmail” passes those asserts, it probably works correctly.
+We wrote all possible inputs and told the program what web expect as a return value. If your function "IsEmail" passes those asserts, it probably works correctly.
 
 **The purpose of those tests is to check functionality in long term.** If we add some new behavior, we can just run those asserts and check if everything still works. 
 
