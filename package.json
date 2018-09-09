@@ -1,9 +1,9 @@
 {
   "name": "assert-testing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "When it comes to testing, I am a simple man. I just need a function that throws an error when \"false\" is inputted. Maybe some message and a compliment when the code found no errors. Welcome to my testing package.",
-  "main": "./dist/testing.js",
-  "types": "./dist/testing.d.ts",
+  "main": "dist/testing.js",
+  "typings": "dist/testing.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Testing code for testing huh? I like you.\""
