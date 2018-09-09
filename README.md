@@ -1,23 +1,25 @@
 
+![Testing class - banner](testing/images/heading-image.png "Testing - easy and light assert")
+
 # Testing
 
-“Testing” is a simple class for testing your JavaScript classes and code. This module is easy to use, light, small and has zero dependencies. 
+“Testing” is a **simple class for testing your JavaScript code**. This module is easy to use, light, small and has zero dependencies. 
 
-This module is written in TypeScript and compiled into commonJS, so it’s highly compatible and works with almost any browser or framework. 
+Testing module is written in TypeScript and compiled into commonJS, so it’s highly compatible and works with almost any browser or framework. 
 
-This is not any high-tech code. It is not dependent on 6156851357 modules and does not offer unseen JavaScript magic. Download this, save a few minutes and use it to make some coffee. We #keepItSimple.
+**This is not any high-tech code. It is not dependent on 6156851357 modules and does not offer unseen JavaScript magic. Download this, save a few minutes and use it to make some coffee. We #keepItSimple.**
 
 ## Assert - What is that? (skip if you know)
 
-It is a function that controls your code.
+**It is a function that checks your code behaviour.**
 
 The idea is extremely simple. You have a function with one Boolean parameter. If the Boolean is false, the function throws an error. Sounds easy? It is! But, you may ask, why Boolean? What the hell?
 
 Assert has just one Boolean input because you write some expression into the parameter and compare it to expected result (==), which results in Boolean. This sentence confused me. Enough words! See this quick and easy example:
 
 ```javascript
-Testing.Assert(1 + 2 = 3); //The result is true -> success (no action)
-Testing.Assert(1 + 2 = 4); //The result is false -> error (exception or console warning)
+Testing.Assert(1 + 2 == 3); //The result is true -> success (no action)
+Testing.Assert(1 + 2 == 4); //The result is false -> error (exception or console warning)
 ```
 
 It tests, if you can add two numbers. Neat, right? But that is kind of not the thing we need. Let’s say that you created function that can tell you, if a string is a correct email address:
@@ -33,7 +35,7 @@ Testing.Assert(!IsEmail("@."));
 Testing.Assert(!IsEmail("lorem-ipsum"));
 ```
 
-We wrote all possible inputs and told the program what is expected return. If your function “IsEmail” passes those asserts, it probably works correctly.
+We wrote all possible inputs and told the program what web expect as a return value. If your function “IsEmail” passes those asserts, it probably works correctly.
 
 **The purpose of those tests is to check functionality in long term.** If we add some new behavior, we can just run those asserts and check if everything still works. 
 
@@ -49,7 +51,7 @@ Testing.Assert(".".removeDots() == "");
 Testing.Assert("....".removeDots() == "");
 ```
 
-## Full functionality of Testing class
+## Full functionality of the Testing class
 
 ```javascript
 var testing = new Testing("Dots removing"); //Parameter name in the constructor is optional, it affects only the output messages (makes them more beautiful)
@@ -63,3 +65,5 @@ testing.Assert("....".removeDots() == "");
 
 testing.EndTestingLog(); //Prints ending message with error count
 ```
+
+Sorry for my English, I hope it's readable.
