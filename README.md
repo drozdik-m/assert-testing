@@ -11,7 +11,7 @@ Testing module is written in TypeScript and compiled into commonJS, so it’s hi
 
 ## Download
 
-You can download the module here (on GitHub) or using npm service
+You can download the module on GitHub (https://github.com/drozdik-m/assert-testing.git) or using npm service (https://www.npmjs.com/package/assert-testing)
 
 ```
 npm install assert-testing --save
