@@ -1,0 +1,17 @@
+﻿{
+  "compileOnSave": true,
+
+  "compilerOptions": {
+    //"allowJs": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "noImplicitUseStrict": true,
+    "outDir": "./dist/"
+  }
+  
+}
+
+
