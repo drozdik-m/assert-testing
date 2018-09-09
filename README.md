@@ -9,6 +9,15 @@ Testing module is written in TypeScript and compiled into commonJS, so it’s hi
 
 **This is not any high-tech code. It is not dependent on 6156851357 modules and does not offer unseen JavaScript magic. Download this, save a few minutes and use it to make some coffee. We #keepItSimple.**
 
+## Download
+
+You can download the module here (on GitHub) or using npm service
+
+```
+npm install assert-testing --save
+```
+
+
 ## Assert - What is that? (skip if you know)
 
 **It is a function that checks your code behaviour.**
@@ -22,7 +31,7 @@ Testing.Assert(1 + 2 == 3); //The result is true -> success (no action)
 Testing.Assert(1 + 2 == 4); //The result is false -> error (exception or console warning)
 ```
 
-It tests, if you can add two numbers. Neat, right? But that is kind of not the thing we need. Let’s say that you created function that can tell you, if a string is a correct email address:
+It tests, if you can add two numbers. Neat, right? But that is kind of not the thing we need. Let’s say that you created a function that can tell you, if a string is a correct email address:
 
 ```javascript
 Testing.Assert(IsEmail("info@domain.cz"));
@@ -35,11 +44,33 @@ Testing.Assert(!IsEmail("@."));
 Testing.Assert(!IsEmail("lorem-ipsum"));
 ```
 
-We wrote all possible inputs and told the program what web expect as a return value. If your function "IsEmail" passes those asserts, it probably works correctly.
+We wrote all possible inputs and told the program what we expect as a return value. If your function "IsEmail" passes those asserts, it probably works correctly.
 
-**The purpose of those tests is to check functionality in long term.** If we add some new behavior, we can just run those asserts and check if everything still works. 
+**The purpose of those tests is to check functionality in short term and long term.** If we add some new behavior, we can just run those asserts and check if everything still works. 
 
-## Super simple example
+## Usage 
+### Import the module
+
+You can import the module using __import__ keyword or __require__ function.
+
+```javascript
+//Import
+import { Testing } from "assert-testing";
+
+//Usage
+Testing.Assert(1 + 2 == 3);
+```
+
+```javascript
+//Require
+var T = require("assert-testing");
+
+//Usage
+T.Testing.Assert(1 + 2 == 3);
+```
+
+
+### Super simple example
 
 Testing class has one static method for easy asserting. It does only the basic functionality. If false in inputted, the method writes error log into the console. Example:
 
@@ -51,7 +82,7 @@ Testing.Assert(".".removeDots() == "");
 Testing.Assert("....".removeDots() == "");
 ```
 
-## Full functionality of the Testing class
+### Full functionality of the Testing class
 
 ```javascript
 var testing = new Testing("Dots removing"); //Parameter name in the constructor is optional, it affects only the output messages (makes them more beautiful)
