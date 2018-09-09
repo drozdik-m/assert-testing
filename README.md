@@ -1,5 +1,5 @@
 
-![Testing class - banner](testing/images/heading-image.png "Testing - easy and light assert")
+![Testing class - banner](/drozdik-m/testing/blob/master/images/heading-image.png?raw=true "Testing - easy and light assert")
 
 # Testing
 
