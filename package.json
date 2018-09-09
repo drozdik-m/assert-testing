@@ -1,5 +1,5 @@
 {
-  "name": "testing",
+  "name": "assert-testing",
   "version": "1.0.0",
   "description": "When it comes to testing, I am a simple man. I just need a function that throws an error when \"false\" is inputted. Maybe some message and a compliment when the code found no errors. Welcome to my testing package.",
   "main": "./dist/testing.js",
