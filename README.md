@@ -5,7 +5,7 @@
 
 "Testing" is a **simple class for testing your JavaScript code**. This module is easy to use, light, small and has zero dependencies. 
 
-Testing module is written in TypeScript and compiled into commonJS, so it’s highly compatible and works with almost any browser or framework. 
+Testing module is written in TypeScript and compiled into commonJS. 
 
 **This is not any high-tech code. It is not dependent on 6156851357 modules and does not offer unseen JavaScript magic. Download this, save a few minutes and use it to make some coffee. We #keepItSimple.**
 
