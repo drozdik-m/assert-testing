@@ -1,11 +1,10 @@
 {
   "name": "assert-testing",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "When it comes to testing, I am a simple man. I just need a function that throws an error when \"false\" is inputted. Maybe some message and a compliment when the code found no errors. Welcome to my testing package.",
   "main": "dist/testing.js",
   "typings": "dist/testing.d.ts",
   "scripts": {
-    "build": "tsc",
     "test": "echo \"Testing code for testing huh? I like you.\""
   },
   "repository": {
@@ -17,7 +16,8 @@
     "testing",
     "light",
     "simple",
-    "JavaScript"
+    "JavaScript",
+    "TypeScript"
   ],
   "author": "Martin Drozdík <info@bonsai-development.cz> (http://bonsai-development.cz)",
   "license": "GPL-3.0-or-later",

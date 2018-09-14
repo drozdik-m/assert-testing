@@ -1,5 +1,5 @@
 ﻿
-![Testing class - banner](images/heading-image.png?raw=true "Testing - easy and light assert")
+![Testing class - banner](images/testing-heading-image.png?raw=true "Testing - easy and light assert")
 
 # Testing
 
