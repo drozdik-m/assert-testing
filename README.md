@@ -17,7 +17,6 @@ You can download the module on [GitHub/assert-testing](https://github.com/drozdi
 npm install assert-testing --save
 ```
 
-
 ## Assert - What is that? (skip if you know)
 
 **It is a function that checks your code behaviour.**
