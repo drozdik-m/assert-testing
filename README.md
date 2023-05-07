@@ -1,6 +1,4 @@
 ﻿
-![Testing class - banner](images/testing-heading-image.png?raw=true "Testing - easy and light assert")
-
 # Testing
 
 "Testing" is a **simple class for testing your JavaScript code**. This module is easy to use, light, small and has zero dependencies. 
@@ -10,7 +8,7 @@ Testing module is written in TypeScript and compiled into commonJS.
 **This is not any high-tech code. It is not dependent on 6156851357 modules and does not offer unseen JavaScript magic. Download this, save a few minutes and use it to make some coffee. We #keepItSimple.**
 
 ## Download
-
+ll
 You can download the module on [GitHub/assert-testing](https://github.com/drozdik-m/assert-testing.git) or using [npm/assert-testing](https://www.npmjs.com/package/assert-testing) service.
 
 ```
