@@ -2,7 +2,6 @@
 /**
  * Class for simple testing
  * @example testing.Assert(1 + 2 === 4) -> this will write an error into the console
- * @author Martin Drozdík <info@bonsai-development.cz> (https://bonsai-development.cz)
  */
 export class Testing
 {

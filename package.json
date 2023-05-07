@@ -1,6 +1,6 @@
 {
   "name": "assert-testing",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "When it comes to testing, I am a simple man. I just need a function that throws an error when \"false\" is inputted. Maybe some message and a compliment when the code found no errors. Welcome to my testing package.",
   "main": "dist/testing.js",
   "typings": "dist/testing.d.ts",
@@ -19,7 +19,7 @@
     "JavaScript",
     "TypeScript"
   ],
-  "author": "Martin Drozdík <info@bonsai-development.cz> (http://bonsai-development.cz)",
+  "author": "Martin Drozdík",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/drozdik-m/testing/issues"
